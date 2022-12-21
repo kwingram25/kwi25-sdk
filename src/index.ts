@@ -1,3 +1,11 @@
-export * from './lib/async';
-export * from './lib/hash';
-export * from './lib/number';
+import TheOneApi from './lib/TheOneApi';
+
+export type {
+  BookDocument as Book,
+  QuoteDocument as Quote,
+  ChapterDocument as Chapter,
+  MovieDocument as Movie,
+  CharacterDocument as Character,
+} from './types';
+
+export default TheOneApi;
