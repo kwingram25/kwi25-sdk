@@ -1,4 +1,4 @@
-# kwingram25-sdk
+# kwi26-sdk
 
 This is a basic promise-based TypeScript SDK for [TheOneApi](https://the-one-api.dev).
 
