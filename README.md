@@ -3,7 +3,7 @@
 This is a basic promise-based TypeScript SDK for [TheOneApi](https://the-one-api.dev).
 
 ```ts
-import { TheOneApi, Character } from 'kwingram25-sdk';
+import TheOneApi, { Character } from 'kwi25-sdk';
 
 const lotr = new TheOneApi({ apiKey: 'YOUR_API_KEY' });
 
@@ -64,8 +64,8 @@ type ListOptions<D extends Document> = {
 
 ## Running
 ```
-git clone https://github.com/kwingram25-sdk
-cd ./kwingram25-sdk
+git clone https://github.com/kwingram25/kwi25-sdk
+cd ./kwi25-sdk
 yarn install
 
 # Tests

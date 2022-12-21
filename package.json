@@ -1,11 +1,11 @@
 {
   "name": "kwi25-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple TypeScript SDK for the-one-api",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
   "module": "build/module/index.js",
-  "repository": "https://github.com/kwingram25/kwingram25-sdk",
+  "repository": "https://github.com/kwingram25/kwi25-sdk",
   "license": "MIT",
   "keywords": [],
   "scripts": {

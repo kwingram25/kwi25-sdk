@@ -31,7 +31,7 @@ const API_BASE_URL = 'https://the-one-api.dev/v2';
  *
  * ### Example
  * ```js
- * import { TheOneApi } from 'kwingram25-sdk';
+ * import TheOneApi from 'kwi25-sdk';
  *
  * export const lotr = new TheOneApi({ apiKey: 'YOUR_API_KEY' });
  * ```
