@@ -26,7 +26,7 @@ const chapters = await lotr.book.withId(')
 
 // Search for quotes
 const quotes = await lotr.quotes.list({
-    filter: { 'dialog': { 'eq': '/[Ss]amwise/' } },
+    filter: { 'dialog': { 'eq': '/samwise/i' } },
     sort: { key: 'book', asc: true }
 })
 ```

@@ -2,11 +2,11 @@
 
 When first starting to work on this, a few points seemed especially important:
 ### Typing
-For developers using the SDK, strong typing is invaluable when working in an editor. With the right editor setup a good SDK should convey the correct usage just through auto-correct and auto-complete alone
+For developers using the SDK, strong typing is invaluable when working in an editor. With the right editor setup a good SDK should convey the correct usage just through auto-correct and auto-complete alone.
 
 ### Documentation
 
-All of the main class methods and important types are explained in Typedoc comments, so as to also be visible during development
+All of the main class methods and important types are explained in Typedoc comments, so as to also be visible during development.
 
 ### API consistency
 
@@ -16,7 +16,7 @@ Mirroring the API routes also allowed us to "chain" and group together API funct
 
 ### DRY
 
-Since several of the top-level data types have overlapping logic - quotes for both movies and characters, for example - it was important to reuse critical logic both to save space and the time necessary to update the libraries in the future.
+Since several of the top-level data types have overlapping logic - quotes for both movies and characters, for example - it was important to reuse critical logic both to reduce bloat and reduce the effort needed to update the libraries in the future.
 
 ## Things to Improve (with more time)
 - Better and more comprehensive testing
